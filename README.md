@@ -1,4 +1,14 @@
+
+
 # Version
+
+## step to run locally
+1. clone repo
+2. npm install on root folder
+3. npm install on lib/product-library folder (Here npm published packages are added as dependency)
+
+## NX Nextjs Versioning Documentation
+
 Implementing library versioning in Next.js and React components with Nx involves a few steps. Nx provides tooling and guidelines for managing monorepos and creating reusable libraries. Here's a high-level overview of the process: 
 
 Set up an Nx Workspace: Start by creating an Nx workspace using the Nx CLI. This workspace will serve as the container for your projects, including the library and the Next.js application. 
