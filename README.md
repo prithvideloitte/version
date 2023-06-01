@@ -2,7 +2,7 @@
 
 # Version
 
-## step to run locally
+## Steps to run locally
 1. clone repo
 2. npm install on root folder
 3. npm install on lib/product-library folder (Here npm published packages are added as dependency)
@@ -41,7 +41,6 @@ Set the versioning configuration: Within the library configuration entry, add or
 
  
 ````
-```
 "my-library": { 
   "root": "libs/my-library", 
   "projectType": "library", 
@@ -59,7 +58,6 @@ Set the versioning configuration: Within the library configuration entry, add or
     "bumpDeps": "none" 
   } 
 } 
-````
 ```
  
 
