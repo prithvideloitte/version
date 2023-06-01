@@ -1,0 +1,10 @@
+{
+  "name": "@version/product-library",
+  "version": "0.0.1",
+  "devDependencies": {
+    "version-shared-library": "^0.1.0"
+  },
+  "dependencies": {
+    "shared-comp-library": "^0.0.1"
+  }
+}

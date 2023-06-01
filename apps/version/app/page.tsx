@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import {ProductLibrary} from './../../../libs/product-library/src/index'
 
 const StyledPage = styled.div`
   .page {
@@ -17,6 +18,7 @@ export default async function Index() {
     <StyledPage>
       <div className="wrapper">
         <div className="container">
+          <ProductLibrary></ProductLibrary>
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
